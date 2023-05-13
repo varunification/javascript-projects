@@ -52,9 +52,15 @@ body{
 }
 
 .button-area button{
+   
+    margin-left: 150px;
 background-color: rgb(22, 84, 92);
 color: azure;
 font-size: 1.2rem;
 padding: 10px 20px;
 border-radius: 5px;
+}
+
+.button-area button:active{
+    background-color: aquamarine;
 }
